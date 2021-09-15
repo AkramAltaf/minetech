@@ -1,0 +1,131 @@
+.signin {
+    font-family: "Raleway", sans-serif;
+    padding: 30px 0;
+}
+
+.minetech__logo {
+    margin-top: 20px;
+}
+
+.signin__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signin__form {
+    max-width: 350px;
+    width: 350px;
+}
+
+.signin__form h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800 !important;
+    color: #343A40;
+}
+
+.signin__image>img {
+    width: 100%;
+    max-width: 700px;
+    height: 500px;
+    object-fit: contain;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-label {
+    color: #343A40;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.form-input {
+    border: 1px solid #CED4DA;
+    padding: 18px;
+    border-radius: 10px;
+    /* width: 350px; */
+    max-width: 100%;
+}
+
+.form-input:focus {
+    outline-width: 0;
+}
+
+.form-input::placeholder {
+    color: #CED4DA;
+    font-size: 16px;
+}
+
+.signin__button button {
+    background-color: #012A93;
+    width: 100%;
+    border-radius: 10px;
+    padding: 12px;
+    border-color: #012A93;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.signin__form p.account {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.signin__form p.danger {
+    margin-top: 5px;
+    color: red;
+    font-size: 14px;
+}
+
+.social__sigin {
+    text-align: center;
+}
+
+.social__sigin a {
+    margin: 5px;
+}
+
+.signin__form span {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    color: #8C98A9;
+}
+
+.signin__form span a {
+    text-decoration: none;
+    color: #012A93;
+}
+
+.form-inputs-inline {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.form-inputs-inline>.form-inputs {
+    width: 48%;
+}
+
+.form-inputs-inline>.form-inputs {
+    width: 48%;
+}
+
+.checkbox {
+    margin-bottom: 10px;
+}
+
+.checkbox>label>a {
+    text-decoration: none;
+    color: #012A93;
+}

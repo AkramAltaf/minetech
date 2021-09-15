@@ -1,0 +1,44 @@
+.users {
+    background-color: #012A93;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.users h2 {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.users>button {
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: none;
+    color: #000;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+table {
+    border-collapse: collapse;
+    color: #fff;
+}
+
+tr,
+td,
+th {
+    border: 1px solid #2a51b2;
+    padding: 10px;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}

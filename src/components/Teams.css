@@ -1,0 +1,45 @@
+.players__list {
+    list-style-type: none;
+}
+
+.players__list li {
+    width: 220px;
+    background-color: #2148aa;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 3px;
+    color: #fff;
+
+}
+
+.teams {
+    background-color: #012A93;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.teams h2 {
+    color: #fff;
+}
+
+.active {
+    background-color: #7cf466 !important;
+}
+
+.country-list {
+    text-transform: uppercase;
+
+}
+
+.team-name {
+    background-color: #2148aa;
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 3px;
+}
